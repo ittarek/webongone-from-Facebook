@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side Slider</title>
+
+    <link rel="stylesheet" href="/slider/sideSlider2.css" />
+  </head>
+
+  <body>
+ <section>
+    <div class="  "  >
+        <figure>
+            <div class="swiper mySwiper" style="height: 300px;">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://plus.unsplash.com/premium_photo-1683134474265-7bf3848ffbd9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cars" class="img-fluid ">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1511737561643-649a082cd8a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cars" class=" w-100 rounded-lg img-fluid hover:scale-110 transition">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1640349292911-7c1c4d9dd4e1?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Cars" class="h-80 w-100 rounded-lg img-fluid hover:scale-110 transition">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </figure>
+    </div>
+</section>
+
+   
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "fade",
+        pagination: {
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

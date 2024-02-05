@@ -1,0 +1,40 @@
+/* navbar style */
+.dropdown-menu {
+    animation: 0.5s slideup;
+}
+
+@keyframes slideup {
+    from {
+        transform: translateY(10%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.icon {
+    list-style: none;
+}
+
+.navbar-toggler
+{
+    z-index: 1;
+}
+.navbar-collapse-item {
+    transition: all 1s;
+}
+
+@media screen and (max-width:576px) {
+    .icon {
+        margin-left: -25px;
+        margin-top: 10px;
+
+    }
+    .navButton{
+        left: 10%;
+    }
+
+
+
+}
